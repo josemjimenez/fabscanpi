@@ -21,7 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-This changes intend to provide laser orientation for FabScanPi 
+This changes intend to provide laser orientation for FabScanPi. 
 To do so is necessary to give dir_ini parameter in laser section of default.config.json file in /etc/fabscanpi directory
 This parameter is read by the modified FSSerial.py file in /usr/local/lib/python2.7/dist-packages/FabScanPi-0.4.3-py2.7.egg/fabscan/scanner/laserscanner
 Then the value provided is communicated to arduino througt G5 funcion implemented in firmware v.20170726.hex that has to be put in
